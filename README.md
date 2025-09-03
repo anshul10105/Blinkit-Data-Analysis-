@@ -43,41 +43,41 @@ Treated outliers in Item Visibility and extreme values in Item MRP.
 
 2. **Univariate Analysis**
 
-Item Fat Content:
+**Item Fat Content**:
 
 Majority of products are either Low Fat or Regular.
 
 Few products fall into High Fat.
 
-Item Type:
+**Item Type**:
 
 Food items dominate sales, especially Snack Foods, Dairy, and Fruits/Vegetables.
 
-Item MRP:
+**Item MRP**:
 
 Distribution shows 3 clusters (low, medium, high price ranges).
 
-Outlet Establishment Year:
+**Outlet Establishment Year**:
 
 Most outlets were established between 1985–2009, with older outlets showing stable sales.
 
 3. **Bivariate Analysis**
 
-Item Fat Content vs Sales:
+**Item Fat Content vs Sales**:
 
 Regular Fat items generate more revenue overall.
 
 Low Fat items are more popular in Tier 1 cities.
 
-Item Type vs Sales:
+**Item Type vs Sales**:
 
 Snack Foods, Dairy, and Soft Drinks perform the best.
 
-Outlet Type vs Sales:
+**Outlet Type vs Sales**:
 
 Supermarkets (especially Type 3) significantly outperform grocery stores.
 
-Outlet Location Type vs Sales:
+**Outlet Location Type vs Sales**:
 
 Tier 3 cities contribute the most to sales compared to Tier 1 and Tier 2.
 
