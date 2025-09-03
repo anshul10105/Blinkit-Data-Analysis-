@@ -1,39 +1,39 @@
 ## Project Overview
 
-This project focuses on Exploratory Data Analysis (EDA) of Blinkit’s sales dataset. The objective is to identify factors that influence sales performance, understand customer preferences, and derive actionable business insights. The analysis includes data cleaning, visualization, trend analysis, and business conclusions to help Blinkit optimize product strategies, outlet expansion, and pricing.
+**This project focuses on Exploratory Data Analysis (EDA) of Blinkit’s sales dataset. The objective is to identify factors that influence sales performance, understand customer preferences, and derive actionable business insights. The analysis includes data cleaning, visualization, trend analysis, and business conclusions to help Blinkit optimize product strategies, outlet expansion, and pricing.**
 
  ### Dataset Description
 
 The dataset used in this analysis includes the following key features:
 
- 1. Item Identifier – Unique code for each product
+ 1. **Item Identifier** – Unique code for each product
 
- 2. Item Type – Category of product (Food, Drinks, Household, etc.)
+ 2. **Item Type** – Category of product (Food, Drinks, Household, etc.)
 
- 3. Item Fat Content – Nutrition level (Low Fat, Regular, High Fat)
+ 3. **Item Fat Content** – Nutrition level (Low Fat, Regular, High Fat)
 
- 4. Item Weight – Weight of each product
+ 4. **Item Weight** – Weight of each product
 
- 5. Item MRP – Maximum Retail Price
+ 5. **Item MRP** – Maximum Retail Price
 
- 6. Outlet Identifier – Unique ID of the store
+ 6. **Outlet Identifier** – Unique ID of the store
 
- 7.Outlet Establishment Year – The year when the outlet was opened
+ 7.**Outlet Establishment Year** – The year when the outlet was opened
 
- 8.Outlet Location Type – City Tier (Tier 1, Tier 2, Tier 3)
+ 8.**Outlet Location Type** – City Tier (Tier 1, Tier 2, Tier 3)
 
- 9. Outlet Size – Small, Medium, Large
+ 9. **Outlet Size** – Small, Medium, Large
 
- 10. Outlet Type – Grocery Store / Supermarket (types 1, 2, 3)
+ 10. **Outlet Type** – Grocery Store / Supermarket (types 1, 2, 3)
  
- 11. Item Visibility – % of shelf space given to the product
+ 11. **Item Visibility** – % of shelf space given to the product
 
- 12. Item Outlet Sales – Sales value of the product (target variable)
+ 12. **Item Outlet Sales** – Sales value of the product (target variable)
  
- 13. Rating
+ 13. **Rating**
 
 ### Exploratory Data Analysis (EDA)
-1. Data Cleaning
+1. **Data Cleaning**
 
 Handled missing values in Item Weight and Outlet Size.
 
@@ -41,7 +41,7 @@ Standardized inconsistent categories in Item Fat Content (LF → Low Fat, reg �
 
 Treated outliers in Item Visibility and extreme values in Item MRP.
 
-2. Univariate Analysis
+2. **Univariate Analysis**
 
 Item Fat Content:
 
@@ -61,7 +61,7 @@ Outlet Establishment Year:
 
 Most outlets were established between 1985–2009, with older outlets showing stable sales.
 
-3. Bivariate Analysis
+3. **Bivariate Analysis**
 
 Item Fat Content vs Sales:
 
@@ -83,13 +83,12 @@ Tier 3 cities contribute the most to sales compared to Tier 1 and Tier 2.
 
 ### Visualizations
 
-  Bar Charts: Item Type vs Sales, Fat Content vs Sales.
+  **Bar Charts**: Item Type vs Sales, Fat Content vs Sales.
 
-  Line Plots: Outlet Establishment Year vs Average Sales.
+  **Line Plot**s: Outlet Establishment Year vs Average Sales.
 
-  Heatmap: Correlation among numerical features.
+  **Heatmap**: Correlation among numerical features.
 
-  Boxplots: Item MRP and Sales distribution.
 
 ### Key Insights
 
